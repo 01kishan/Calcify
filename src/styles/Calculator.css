@@ -1,10 +1,25 @@
-.calc-container{
+.calc-container {
     width: 400px;
     border: 0px solid black;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 20px;
     background-color: #f9f9f9;
+}
+
+.header{
+    text-align: center;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    color: #fff;
+}
+/* 📱 Mobile view (screens up to 600px wide) */
+@media (max-width: 600px) {
+    .calc-container {
+        width: 80%;
+        padding: 15px;
+        box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    }
 }
 .display input{
     width: 94%;
@@ -48,10 +63,4 @@
     margin-top:10px;
     background-color: #9B5DE0;
     color:#fff;
-}
-.header{
-    text-align: center;
-    margin: 20px auto;
-    margin-bottom: 20px;
-    color: #fff;
 }
